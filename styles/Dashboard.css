@@ -1,0 +1,52 @@
+.logo {
+	margin: 16px;
+	justify-content: center;
+	display: flex;
+}
+.site-layout .site-layout-background {
+	background: #fff;
+	border-radius: 10px;
+}
+[data-theme='dark'] .site-layout .site-layout-background {
+	background: #141414;
+}
+
+.trigger {
+	font-size: 18px;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.trigger:hover {
+	color: #1890ff;
+}
+
+.ant-menu-item-group-title {
+	height: 1.5715;
+	padding: 8px 16px;
+	color: white;
+	font-size: 14px;
+	line-height: 1.5715;
+	transition: all 0.3s;
+}
+
+.submenu {
+	color: #424242;
+}
+
+.ant-menu-item-selected {
+	color: #424242;
+	font-weight: bold;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+	background-color: #fff;
+}
+
+.color-gray-2 {
+	background-color: #fafafa;
+}
+
+.color-gray-1 {
+	background-color: #ffffff;
+}
