@@ -9,6 +9,7 @@ const { Content } = Layout;
 const { Title } = Typography;
 
 export default function Home() {
+	// FIXME: CORS issue in BE side from moduit API, please take a look thankyou, while now I'm adding mockdata first
 	let dataMock = [
 		{
 			id: 395422,
