@@ -1240,7 +1240,7 @@ export default function QuestionTwo() {
 				(filtering) => filtering.title.toLowerCase() === data.toLowerCase()
 			);
 
-			setDataListMasterSpec(tempData);
+			setDataList(tempData);
 		}
 	};
 	return (
