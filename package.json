@@ -1,5 +1,6 @@
 {
   "name": "moduit-frontend-web",
+  "author": "https://www.linkedin.com/in/wahyu-fatur-rizky",
   "private": true,
   "scripts": {
     "dev": "next dev",
